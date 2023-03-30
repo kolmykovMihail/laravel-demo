@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "121ea3a2fffe49b3ef9aa4d064b28c19",
+    "content-hash": "d23788fc9bda0e1372ff06b3903bd72c",
     "packages": [
         {
             "name": "brick/math",
@@ -980,6 +980,41 @@
                 }
             ],
             "time": "2021-10-07T12:57:01+00:00"
+        },
+        {
+            "name": "kolmykovmihail/mcms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:kolmykovMihail/mcms.git",
+                "reference": "4baf3b0627ab9fdc54772681110dfd4940f31b15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kolmykovMihail/mcms/zipball/4baf3b0627ab9fdc54772681110dfd4940f31b15",
+                "reference": "4baf3b0627ab9fdc54772681110dfd4940f31b15",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "default-branch": true,
+            "type": "library",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mihail Kolmykov",
+                    "email": "ms.mihail.kolmykov@gmail.com"
+                }
+            ],
+            "description": "Laravel CMS - MCms",
+            "support": {
+                "source": "https://github.com/kolmykovMihail/mcms/tree/dev-master",
+                "issues": "https://github.com/kolmykovMihail/mcms/issues"
+            },
+            "time": "2023-03-30T07:57:07+00:00"
         },
         {
             "name": "laravel/framework",
@@ -7817,7 +7852,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "kolmykovmihail/mcms": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
